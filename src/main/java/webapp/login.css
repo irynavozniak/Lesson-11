@@ -1,0 +1,132 @@
+
+.login-page {
+    width: 400px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.alert-success{
+	display: none;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: pink;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form input {
+    font-family: sans-serif;
+    outline: 0;
+    background: yellow;
+    width: 100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form label {
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 40%;	
+}
+
+.form label input[type="radio"] {
+  display: block;
+  margin: 0.5em auto;    
+}
+
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: red;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #43A047;
+}
+
+.form .message {
+    margin: 10px 0 0;
+    color: greenyellow;
+    font-size: 14px;
+}
+
+.form .message a {
+    color: green;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+}
+
+.container .info span {
+    color: grey;
+    font-size: 14px;
+}
+
+.container .info span a {
+    color: black;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: royalblue;
+}
+
+body {
+    background: pink;
+    background: -webkit-linear-gradient(right, pink, pink);
+    background: -moz-linear-gradient(right, pink, pink);
+    background: -o-linear-gradient(right, pink, pink);
+    background: linear-gradient(to left, pink, pink);
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

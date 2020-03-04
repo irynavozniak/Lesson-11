@@ -1,0 +1,18 @@
+body {
+    background: rgb(255, 255, 255);
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 0;
+    box-shadow: 0 3px 5px rgb(128, 128, 128);
+}

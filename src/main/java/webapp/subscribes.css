@@ -1,0 +1,33 @@
+#search {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid rgb(128, 128, 64);
+  margin-bottom: 10px;
+}
+
+#table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgb(128, 128, 64);
+  font-size: 18px;
+}
+
+#table th, #table td {
+  text-align: left;
+  padding: 10px;
+}
+
+#table tr {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#table tr.header, #table tr:hover {
+  background-color: rgb(128, 255, 128);
+}
+
+button {
+	margin: 0 30px;
+}
